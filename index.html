@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Dekho</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* 1st Banner styles */
+        .banner {
+            background-image: url('banner-image.jpg');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .banner h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .banner p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #ff9500;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Most Searched and Latest Car styles */
+        .most-searched, .latest-cars {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .most-searched h2, .latest-cars h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Cars Dekho</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Find Your Dream Car</h1>
+        <p>Discover a wide range of cars from top brands.</p>
+        <a href="#" class="cta-button">Explore Now</a>
+    </section>
+
+    <section class="most-searched">
+        <h2>Most Searched Cars</h2>
+        <!-- Car listings go here -->
+    </section>
+
+    <section class="latest-cars">
+        <h2>Latest Cars</h2>
+        <!-- Car listings go here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Cars Dekho. All rights reserved.</p>
+    </footer>
+</body>
+</html>
